@@ -2,9 +2,9 @@ import saneyak
 
 
 def main():
-    actual = saneyak.__name__
+    result = saneyak.__name__
     expected = "saneyak"
-    if actual == expected:
+    if result == expected:
         print("smoke test passed")
     else:
         raise RuntimeError("smoke test failed")
